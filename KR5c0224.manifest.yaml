@@ -1,0 +1,51 @@
+canonical_identifier: bkk:krp/KR5c0224/v1
+canonical_location: https://kanripo.org/bkk/KR5c0224/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 胎息抱一歌
+  identifiers:
+    alt_id:
+    - DZ0827
+  date: '2015-08-29 00:54:41.562048'
+  source:
+    repository: kanripo
+    path: KR5c0224
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0224_000.yaml, hash: 'sha256:22c5292457c268823c211968005762aa8fa1b283435dd4ae97bd9afa19dec554'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0224_000.markers.yaml, hash: 'sha256:8614f1663e2ffadf4751c0893048a2fccc1ba54c638a4ab5dea66be8e19eedbf'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0224_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 843
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:7787af050622767807f8c50af26b2ca7357fb854534488a8c0482292fea0023b
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
